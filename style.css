@@ -12,7 +12,7 @@
   margin: 0 auto;
 }
 
-/* Font resets */
+/* resets */
 
 body {
   font-family: var(--font-poppins);
@@ -40,4 +40,47 @@ body {
 
 .e-footer h3 {
   padding: 0;
+}
+
+/* homepage hero section */
+
+.hero {
+  background-color: hsl(var(--bg-500));
+}
+
+.e-hero-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 90vw;
+  max-width: 60em;
+  margin: 0 auto;
+}
+
+.e-hero-text {
+  align-self: center;
+}
+
+.e-hero-text h1 {
+  padding: 0;
+}
+
+.e-cta {
+  margin: 1rem 0;
+}
+
+/* categories cards container */
+
+.categories-cards {
+  padding: 2rem 0;
+}
+.catergories-cards-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+@media (min-width: 760px) {
+  .e-hero-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
