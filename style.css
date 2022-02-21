@@ -2,7 +2,7 @@
 
 /* Header Styles */
 
-header {
+.shadow {
   box-shadow: 0 0 4px hsl(var(--bg-400));
 }
 
