@@ -1,86 +1,12 @@
 @import url("https://chunksui.netlify.app/css/style.css");
 
-/* Utilities */
-
-.shadow {
-  box-shadow: 0 0 2px hsl(var(--bg-400));
-}
-
-.e-container {
-  width: 90vw;
-  max-width: 85em;
-  margin: 0 auto;
-}
-
-/* resets */
-
-body {
-  font-family: var(--font-poppins);
-}
-
 /* Header Styles */
+
+header {
+  box-shadow: 0 0 4px hsl(var(--bg-400));
+}
 
 .navbar {
   background-color: inherit;
   color: inherit;
-}
-
-.logo h2 {
-  font-size: 2.2rem;
-  font-weight: 700;
-  padding: 0;
-}
-
-/* footer styles */
-
-.e-footer {
-  margin-top: auto;
-  padding: 2rem;
-}
-
-.e-footer h3 {
-  padding: 0;
-}
-
-/* homepage hero section */
-
-.hero {
-  background-color: hsl(var(--bg-500));
-}
-
-.e-hero-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  width: 90vw;
-  max-width: 60em;
-  margin: 0 auto;
-}
-
-.e-hero-text {
-  align-self: center;
-}
-
-.e-hero-text h1 {
-  padding: 0;
-}
-
-.e-cta {
-  margin: 1rem 0;
-}
-
-/* categories cards container */
-
-.categories-cards {
-  padding: 2rem 0;
-}
-.catergories-cards-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-}
-
-@media (min-width: 760px) {
-  .e-hero-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
