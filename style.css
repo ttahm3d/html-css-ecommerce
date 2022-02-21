@@ -128,6 +128,17 @@ h6 {
   padding: 1rem;
 }
 
+.login-form-container {
+  width: 90vw;
+  max-width: 25em;
+  margin: 2rem auto;
+  padding: 1rem 0 3rem;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
 @media (min-width: 760px) {
   .e-hero-container {
     grid-template-columns: repeat(2, 1fr);
