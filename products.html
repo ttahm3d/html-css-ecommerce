@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Aegis Store</title>
+  </head>
+  <body>
+    <header class="shadow">
+      <div class="e-container">
+        <nav class="navbar flex align-center flex-gap-2">
+          <div class="logo">
+            <a href="index.html"><h2>Aegis Store</h2></a>
+          </div>
+          <div class="search-box">
+            <input type="text" id="name" class="input-item" />
+          </div>
+          <div class="nav-items flex align-center flex-gap-1">
+            <ul class="nav-list flex align-center style-none flex-gap-1">
+              <li class="nav-list-item">
+                <a href="wishlist.html">Wishlist</a>
+              </li>
+              <li class="nav-list-item"><a href="cart.html">Cart</a></li>
+              <li class="nav-list-item"><a href="login.html">Login</a></li>
+            </ul>
+            <button class="btnToggle">
+              <i class="fas fa-moon"></i>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="e-container">
+        <section class="e-products-container">
+          <aside class="e-sidebar">
+            <h4 class="heading-4">Filters</h4>
+            <div class="sidebar-section">
+              <div class="sidebar-section-heading products-sidebar-heading">
+                Sort by
+              </div>
+              <div class="input-group-hz">
+                <input type="radio" name="pricing" id="low-to-high" />
+                <label htmlFor="low-to-high">Low to High</label>
+              </div>
+              <div class="input-group-hz">
+                <input type="radio" name="pricing" id="high-to-low" />
+                <label htmlFor="high-to-low">High to Low</label>
+              </div>
+            </div>
+
+            <div class="sidebar-section">
+              <div class="sidebar-section-heading products-sidebar-heading">
+                Category
+              </div>
+              <div class="input-group-hz">
+                <input type="checkbox" name="category" id="jerseys" />
+                <label htmlFor="jerseys">Jerseys</label>
+              </div>
+              <div class="input-group-hz">
+                <input type="checkbox" name="category" id="comfort-wear" />
+                <label htmlFor="comfort-wear">Comfort Wear</label>
+              </div>
+              <div class="input-group-hz">
+                <input type="checkbox" name="category" id="gaming-chairs" />
+                <label htmlFor="gaming-chairs">Gaming Chairs</label>
+              </div>
+              <div class="input-group-hz">
+                <input
+                  type="checkbox"
+                  name="category"
+                  id="gaming-accessories"
+                />
+                <label htmlFor="gaming-accessories">Gaming Accessories</label>
+              </div>
+            </div>
+
+            <div class="sidebar-section">
+              <div class="sidebar-section-heading products-sidebar-heading">
+                Ratings
+              </div>
+              <div class="input-group-hz">
+                <input type="radio" name="rating" id="four-and-above" />
+                <label htmlFor="four-and-above">4 & above</label>
+              </div>
+              <div class="input-group-hz">
+                <input type="radio" name="rating" id="three-and-above" />
+                <label htmlFor="three-and-above">3 & above</label>
+              </div>
+              <div class="input-group-hz">
+                <input type="radio" name="rating" id="two-and-above" />
+                <label htmlFor="two-and-above">2 & above</label>
+              </div>
+              <div class="input-group-hz">
+                <input type="radio" name="rating" id="one-and-above" />
+                <label htmlFor="one-and-above">1 & above</label>
+              </div>
+            </div>
+          </aside>
+          <article class="products-container">
+            <div class="card card-border">
+              <div class="product-image-container">
+                <img src="./assets/jersey.png" alt="jersey" />
+              </div>
+              <div class="product-description-container">
+                <div class="product-name">OG Jersey</div>
+                <div className="product-description">
+                  <div class="product-price">
+                    <div class="selling-price">&#8377; 5999</div>
+                    <div class="original-price">&#8377; 9999</div>
+                  </div>
+                  <div class="flex justify-between product__actions-container">
+                    <button class="btn btn-primary">
+                      <span>
+                        <i class="fas fa-shopping-cart"></i>
+                      </span>
+                      &nbsp; Add to Cart
+                    </button>
+                    <button class="btn btn-accent">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card card-border">
+              <div class="product-image-container">
+                <img src="./assets/jersey.png" alt="jersey" />
+              </div>
+              <div class="product-description-container">
+                <div class="product-name">OG Jersey</div>
+                <div className="product-description">
+                  <div class="product-price">
+                    <div class="selling-price">&#8377; 5999</div>
+                    <div class="original-price">&#8377; 9999</div>
+                  </div>
+                  <div class="flex justify-between product__actions-container">
+                    <button class="btn btn-primary">
+                      <span>
+                        <i class="fas fa-shopping-cart"></i>
+                      </span>
+                      &nbsp; Add to Cart
+                    </button>
+                    <button class="btn btn-accent">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card card-border">
+              <div class="product-image-container">
+                <img src="./assets/jersey.png" alt="jersey" />
+              </div>
+              <div class="product-description-container">
+                <div class="product-name">OG Jersey</div>
+                <div className="product-description">
+                  <div class="product-price">
+                    <div class="selling-price">&#8377; 5999</div>
+                    <div class="original-price">&#8377; 9999</div>
+                  </div>
+                  <div class="flex justify-between product__actions-container">
+                    <button class="btn btn-primary">
+                      <span>
+                        <i class="fas fa-shopping-cart"></i>
+                      </span>
+                      &nbsp; Add to Cart
+                    </button>
+                    <button class="btn btn-accent">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card card-border">
+              <div class="product-image-container">
+                <img src="./assets/jersey.png" alt="jersey" />
+              </div>
+              <div class="product-description-container">
+                <div class="product-name">OG Jersey</div>
+                <div className="product-description">
+                  <div class="product-price">
+                    <div class="selling-price">&#8377; 5999</div>
+                    <div class="original-price">&#8377; 9999</div>
+                  </div>
+                  <div class="flex justify-between product__actions-container">
+                    <button class="btn btn-primary">
+                      <span>
+                        <i class="fas fa-shopping-cart"></i>
+                      </span>
+                      &nbsp; Add to Cart
+                    </button>
+                    <button class="btn btn-accent">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card card-border">
+              <div class="product-image-container">
+                <img src="./assets/jersey.png" alt="jersey" />
+              </div>
+              <div class="product-description-container">
+                <div class="product-name">OG Jersey</div>
+                <div className="product-description">
+                  <div class="product-price">
+                    <div class="selling-price">&#8377; 5999</div>
+                    <div class="original-price">&#8377; 9999</div>
+                  </div>
+                  <div class="flex justify-between product__actions-container">
+                    <button class="btn btn-primary">
+                      <span>
+                        <i class="fas fa-shopping-cart"></i>
+                      </span>
+                      &nbsp; Add to Cart
+                    </button>
+                    <button class="btn btn-accent">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card card-border">
+              <div class="product-image-container">
+                <img src="./assets/jersey.png" alt="jersey" />
+              </div>
+              <div class="product-description-container">
+                <div class="product-name">OG Jersey</div>
+                <div className="product-description">
+                  <div class="product-price">
+                    <div class="selling-price">&#8377; 5999</div>
+                    <div class="original-price">&#8377; 9999</div>
+                  </div>
+                  <div class="flex justify-between product__actions-container">
+                    <button class="btn btn-primary">
+                      <span>
+                        <i class="fas fa-shopping-cart"></i>
+                      </span>
+                      &nbsp; Add to Cart
+                    </button>
+                    <button class="btn btn-accent">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card card-border">
+              <div class="product-image-container">
+                <img src="./assets/jersey.png" alt="jersey" />
+              </div>
+              <div class="product-description-container">
+                <div class="product-name">OG Jersey</div>
+                <div className="product-description">
+                  <div class="product-price">
+                    <div class="selling-price">&#8377; 5999</div>
+                    <div class="original-price">&#8377; 9999</div>
+                  </div>
+                  <div class="flex justify-between product__actions-container">
+                    <button class="btn btn-primary">
+                      <span>
+                        <i class="fas fa-shopping-cart"></i>
+                      </span>
+                      &nbsp; Add to Cart
+                    </button>
+                    <button class="btn btn-accent">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card card-border">
+              <div class="product-image-container">
+                <img src="./assets/jersey.png" alt="jersey" />
+              </div>
+              <div class="product-description-container">
+                <div class="product-name">OG Jersey</div>
+                <div className="product-description">
+                  <div class="product-price">
+                    <div class="selling-price">&#8377; 5999</div>
+                    <div class="original-price">&#8377; 9999</div>
+                  </div>
+                  <div class="flex justify-between product__actions-container">
+                    <button class="btn btn-primary">
+                      <span>
+                        <i class="fas fa-shopping-cart"></i>
+                      </span>
+                      &nbsp; Add to Cart
+                    </button>
+                    <button class="btn btn-accent">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <footer class="shadow e-footer">
+      <div class="e-container">
+        <h3 class="heading-3">Aegis Store</h3>
+      </div>
+    </footer>
+    <script src="https://chunksui.netlify.app/js/script.js"></script>
+  </body>
+</html>
