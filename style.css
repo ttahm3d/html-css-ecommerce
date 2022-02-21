@@ -1,9 +1,9 @@
 @import url("https://chunksui.netlify.app/css/style.css");
 
-/* Utilities */
+/* Header Styles */
 
-.shadow {
-  box-shadow: 0 0 2px hsl(var(--bg-400));
+header {
+  box-shadow: 0 0 4px hsl(var(--bg-400));
 }
 
 .e-container {
