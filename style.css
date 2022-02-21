@@ -1,3 +1,12 @@
 @import url("https://chunksui.netlify.app/css/style.css");
 
 /* Header Styles */
+
+header {
+  box-shadow: 0 0 4px hsl(var(--bg-400));
+}
+
+.navbar {
+  background-color: inherit;
+  color: inherit;
+}
